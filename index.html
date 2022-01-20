@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Grundläggande HTML kod-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!--Hämtar JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <!-- div för den gråa lådan som innehåller allt-->
+    <div id="box">
+        
+        <div id="bruhbox">
+            <input type="text" id="locbox" placeholder="location">
+            <button type="button" id="locbtn">Show Value</button>
+        </div>
+
+
+        <!-- header för location -->
+        <h2 id="location"></h2>
+
+        <!-- Bild för att visa icon-->
+        <img id="icon" src="burg.jpg"/>
+        
+        <!-- Div som innehåller header för temperatur-->
+        <div id="temper"> <h1 id="temp"></h1> <h1>°C</h1> </div>
+        
+        <!-- Div som innehåller paragraf för minimum temperatur-->
+        <div id="mindiv">
+            <div class="bruh"> <p>Min: </p> <p id="min"></p> <p>°C</p> </div>
+        </div>
+        
+        <!-- Div som innehåller paragraf för maximum temperatur-->
+        <div id="maxdiv">
+            <div class="bruh"> <p>Max: </p> <p id="max"></p> <p>°C</p> </div>
+        </div>
+
+        <!-- Div som innehåller paragraf för fuktighet-->
+        <div id="humdiv">
+            <div class="bruh"> <p>Humidity: </p> <p id="humidity"></p> <p>%</p> </div>
+        </div>
+
+        <!-- Div som innehåller paragraf för vindhastighet-->
+        <div id="windiv">
+            <div class="bruh"> <p>Wind Speed: </p> <p id="windspeed"></p> <p>km/h</p> </div>
+        </div>
+    </div>
+
+    <!--Extern länk för javascript fil-->
+    <script src="baba.js"></script>
+</body>
+</html>
